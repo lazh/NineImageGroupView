@@ -107,7 +107,7 @@ public class NineImageGroupView extends FrameLayout {
             column = 2 ;
         }else{
             column = 3;
-            row =  imageUrls.size()/3 + imageUrls.size()%3==0?0:1;
+            row =  (imageUrls.size()/3) + (imageUrls.size()%3==0?0:1);
         }
     }
 
